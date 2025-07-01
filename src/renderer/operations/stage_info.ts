@@ -49,8 +49,12 @@ export class StageInfo {
 }
 
 export const stageInfo: Record<string, { display_name: string }> = {
-  // Random: { display_name: 'Random (All)', },
-  // RandomNormal: { display_name: 'Normal Random', },
+  Random: { 
+    display_name: 'Random (All)', 
+  },
+  RandomNormal: { 
+    display_name: 'Normal Random', 
+  },
   BattleField: {
     display_name: 'Battlefield',
   },
